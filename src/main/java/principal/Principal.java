@@ -31,7 +31,7 @@ public class Principal {
       System.out.println("========================================================");
       System.out.println("0 - Incrementar");
       System.out.println("1 - Decrementar");
-      System.out.println("\nSua escolha: ");
+      System.out.print("\nSua escolha: ");
       opt = sc.nextInt();
       System.out.println("");
 
@@ -47,7 +47,7 @@ public class Principal {
          // DECREASE
          for (int i = 0; i < 10000; i++) {
             casio.decSegundos();
-            System.out.print("CASIO : " + casio.getTime());
+            System.out.println("CASIO : " + casio.getTime());
             Thread.sleep(1000);
          }
       }
